@@ -1,0 +1,42 @@
+state = {
+
+	id = 664
+
+	name = "STATE_664"
+
+	manpower = 854300
+
+	resources = {
+
+	}
+	
+	state_category = town
+	
+	history = {
+
+		owner = CZE
+
+		buildings = {
+			infrastructure = 3 #was: 6
+		}
+
+		victory_points = {
+			6573 1 # Kosice
+		}
+
+		add_core_of = CZE
+		add_core_of = SLO
+
+		# This should isntead be reclaimable through Hungarian focuses with ww
+		1936.1.3 = {
+			owner = GER
+			add_core_of = GER
+		}
+	}
+	
+	provinces = {
+		3565 3716 6561 6573 9537 11679 
+	}
+
+	local_supplies = 3.0 
+}

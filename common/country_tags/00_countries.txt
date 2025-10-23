@@ -1,0 +1,3 @@
+GER	= "countries/Germany.txt"
+SOV = "countries/Soviet Union.txt"
+SWE	= "countries/Sweden.txt"

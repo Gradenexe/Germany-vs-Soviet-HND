@@ -1,0 +1,46 @@
+bookmarks = {
+	bookmark = {
+		name = "WIDE_FRONT_NAME"
+		desc = "WIDE_FRONT_DESC"
+		date = 1936.1.3.12
+		picture = "GFX_select_date_1939"
+		default_country = "GER"
+		default = yes
+		
+		"GER"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = fascism
+			available = { has_dlc = "Waking the Tiger" }
+			ideas = {
+				PVP_G
+				wide_front_bonus
+			}
+			focuses = {
+				
+			}
+		}
+
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = communism
+			available = { has_dlc = "No Step Back" }
+			ideas = {
+				PVP_S
+				wide_front_bonus
+			}
+			focuses = {
+				
+			}	
+		}
+
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

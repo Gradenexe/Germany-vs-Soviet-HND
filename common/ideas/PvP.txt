@@ -1,0 +1,31 @@
+ideas = { 
+    country = { 
+        PVP_G = { 
+            picture = idea_ARG_public_works_investment
+            modifier = { 				
+                industrial_capacity_factory = 0.1
+				experience_gain_factor = 1
+            }
+        }
+        PVP_S = { 
+            picture = idea_ARG_public_works_investment
+            modifier = { 				
+                industrial_capacity_factory = 0.1
+				experience_gain_factor = 1
+            }
+        }
+       vendor_bonus = {		
+            picture = great_depression	
+			removal_cost = -1	
+			modifier = {
+				min_export = 10
+			}
+		}		
+        wide_front_bonus = { 
+            picture = idea_ARG_public_works_investment
+            modifier = { 				
+                industrial_capacity_factory = 0.1
+            }
+        }
+    }    
+}

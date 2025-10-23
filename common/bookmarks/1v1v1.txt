@@ -1,0 +1,57 @@
+bookmarks = {
+	bookmark = {
+		name = "1v1v1"
+		desc = "1v1v1"
+		date = 1936.1.4.12
+		picture = "GFX_select_date_1939"
+		default_country = "GER"
+		default = yes
+		
+		"GER"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = fascism
+			available = { has_dlc = "Waking the Tiger" }
+			ideas = {
+				PVP_G
+				wide_front_bonus
+			}
+			focuses = {
+				
+			}
+		}
+
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = communism
+			available = { has_dlc = "No Step Back" }
+			ideas = {
+				PVP_S
+				wide_front_bonus
+			}
+			focuses = {
+				
+			}	
+		}
+		"ITA"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = democracy
+			available = { has_dlc = "No Step Back" }
+			ideas = {
+				PVP_S
+				wide_front_bonus
+			}
+			focuses = {
+				
+			}	
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
